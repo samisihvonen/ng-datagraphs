@@ -1,0 +1,10 @@
+<div class="flex-1 flex py-3 justify-between gap-2">
+    <button class="bg-blue-500 rounded px-2">GET DATA</button>
+    <div class="text-2xl text-center">Current Temperature: {{temperature}}
+    </div>
+    <div class="text-2xl text-center"> Feels like {{feelsLike}}
+    </div>
+</div>
+<div *ngIf={chart} id="chart">
+    <canvas id="graphChart">{{chart}}</canvas>
+</div>
