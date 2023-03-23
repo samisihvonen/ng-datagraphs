@@ -1,6 +1,5 @@
 export const environment = {
     development:true,
-    apiKey:"6c3f468581475ee9b3f9ff31beb834df",
-    url:"http://api.marketstack.com/v1/"
-
+    weatherApi:"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/[location]/[date1]/[date2]?key=HWA4Z9EFNGWAQYEVACCK98873",
+    weatherApiKey:"HWA4Z9EFNGWAQYEVACCK98873"
 };
